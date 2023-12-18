@@ -1,0 +1,43 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header-bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.header-bg ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+}
+.header-bg ul li{
+   font-size: 14px;
+   font-weight: 600;
+   cursor: pointer;
+}
+
+.header-logo{
+    color: #141EFF;
+    font-size: 30px;
+}
+
+.signup-button{
+    padding:5px 15px;
+    gap: 10px;
+    background-color: transparent;
+    color: #141EFF;
+    border-radius: 10px;
+    border: 2px solid #141EFF;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
